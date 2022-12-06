@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    white-space: pre-line;
+    letter-spacing: 0.1em;
+    margin: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar, .buttons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+a {
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#qatar, #qatar p {
+    text-align: center;
+}
+
+#qatar img {
+    max-height: 1500px;
+    max-width: 1000px;
+    border-radius: 50px;
+}
+
+.invalid {
+    color: red;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.card {
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: red;
+}
