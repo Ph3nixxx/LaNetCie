@@ -63,7 +63,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 
 <section>
     <h1>Veuillez modifier les informations remplies :</h1>
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="">
+    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
         <div>
             <label for="firstname" class="form-label">Prénom</label>
             <input type="text" class="form-control <?php echo $first_nameErr ? 'is-invalid' : null ?>" id="first_name" name="first_name" value="<?= $id['first_name']?>">

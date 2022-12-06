@@ -18,7 +18,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
     $query->bindValue(':id', $id, PDO::PARAM_INT);
     $query->execute();
 
-    // On récupère l'utilisateur'
+    // On récupère l'utilisateur
     $user = $query->fetch();
 
     // On vérifie si l'utilisateur existe

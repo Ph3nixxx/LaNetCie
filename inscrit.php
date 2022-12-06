@@ -33,7 +33,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 }
 ?>
 
-<div class="">
+<div>
   <h1>Détails de l'inscription :</h1>
   <div class="card">
     <p>Prénom : <?= $user['first_name'] ?></p>

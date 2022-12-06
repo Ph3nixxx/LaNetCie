@@ -67,7 +67,7 @@ if (isset($_POST['submit'])) {
 <section>
     <h2>Si vous souhaitez vous inscrire, merci de remplir le formulaire ci-dessous :</h2>
 
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="">
+    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
         <div>
             <label for="firstname" class="form-label">Prénom</label>
             <input type="text" class="form-control <?php echo $first_nameErr ? 'is-invalid' : null ?>" id="first_name" name="first_name" placeholder="Saisissez votre prénom">
